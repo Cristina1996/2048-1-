@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head> </head>
+<body>
+<script>
+var c=1;
+var d;
+var e;
+var n = prompt('Введите натуральное число n','');
+if(n%2==0)
+{
+e=-n/2
+}
+else
+e=( -n-1)/2
+if(n>7)
+{
+ d=e+7
+}
+else
+d=-e
+if((e-1)*e>n)
+{
+d=d-1
+}
+else 
+d=d
+//for (var i=-n;i<=n;i++)
+for (var i=e+1;i<=d;i++)
+{
+c=i;
+document.write(c +' ' );
+}
+if(c=7)
+{
+for( var j=8; j<=n; j++)
+{
+c=7;
+
+document.write(c+' ');
+}
+}document.write( ' <p>Кол-во семерок:');
+document.write(n-7)+' '+"</p>";
+</script>
+</body>
+</html>
